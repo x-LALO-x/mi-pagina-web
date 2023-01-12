@@ -19,7 +19,7 @@ $mensaje .= "Enviado el dia: " . date('d/m/y' , date());
 $destinatario = 'jim65eduardo@gmail.com';
 $asunto = 'Este correo fue enviado desde mi pagina web1';
 
-mail($destinatario, $asunto, $mensaje , $correo, $header);
+mail($destinatario, $asunto, $mensaje , $correo);
 
 header('Location:index.html');
 
