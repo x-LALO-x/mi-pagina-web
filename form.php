@@ -18,8 +18,11 @@ $mensaje .= "Enviado el dia: " . date('d/m/y' , date());
 
 $destinatario = 'jim65eduardo@gmail.com';
 $asunto = 'Este correo fue enviado desde mi pagina web1';
+$header = 'From: $correo' . "\r\n" .
+    'Reply-To: $correo' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-mail($destinatario, $asunto, $mensaje , $correo);
+mail($destinatario, $asunto, $mensaje , $header);
 
 header('Location:index.html');
 
