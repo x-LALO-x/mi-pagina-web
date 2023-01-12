@@ -1,0 +1,143 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <script language="javascript">
+
+</script>
+</head>
+<body>
+	<style>
+body{font-size: 20px;
+	background-color: #7d787a;
+	background-size: cover;
+	margin: 0;
+     padding: 0;
+	background-position: center;
+}
+p{
+	color:#ffffff;
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7d787a;
+}
+
+.active {
+  background-color: #42009c;
+}
+#XD{
+  padding: 30px;
+}
+</style>
+<ul>
+	<li><a href="index.html">SISTEMA SOLAR</a></li>
+    <li><a href="SOL.html">SOL</a></li>
+    <li><a href="MERCURIO.html">MERCURIO</a></li>
+    <li><a href="VENUS.html">VENUS</a></li>
+    <li><a href="TIERRA.html">TIERRA</a></li>
+    <li><a href="MARTE.html">MARTE</a></li>
+    <li><a href="JUPITER.html">JUPITER</a></li>
+    <li><a href="SATURNO.html">SATURNO</a></li>
+    <li><a href="URANO.html">URANO</a></li>
+    <li><a href="NEPTUNO.html">NEPTUNO</a></li>
+    <li><a href="PLUTON.html">PLUTON</a></li>
+    <li><a href="CONOCEMAS.html">FORMULARIO</a></li>
+</ul>
+<div id="XD">
+<form name="form1" method="POST" action="form.php">
+<table border="0" cellpadding="0" cellspacing="0" width="400">
+<tr>
+    <td width="50%">Ingresa el usuario: (*)</td>
+    <td width="50%"><input type="text" name="usuario" id="usuario" value=""></td>
+</tr>
+<tr>
+    <td width="50%">Ingresa el nombre: (*)</td>
+    <td><input type="text" name="nombre" id="nombre" value=""></td>
+</tr>
+<tr>
+    <td width="50%">Ingresa el apellido: (*)</td>
+    <td><input type="text" name="apellido" id="apellido" value=""></td>
+</tr>
+<tr>
+    <td width="50%">Ingresa el correo electronico:</td>
+    <td width="50%"><input type="text" name="email" id="email" value=""></td>
+</tr>
+<tr>
+    <td width="50%">Ingresa una password: (*)</td>
+    <td width="50%"><input type="password" name="clave1" id="clave1" value=""></td>
+</tr>
+<tr>
+    <td width="50%">Repite la password: (*)</td>
+    <td width="50%"><input type="password" name="clave2" id="clave2" value=""></td>
+</tr>
+<tr>
+    <td width="50%" align="left" valign="top">Seleccione sus hobbies: (*)</td>
+    <td width="50%">
+    <input type="checkbox" name="hobby" value="programar">Programar&nbsp;
+    <input type="checkbox" name="hobby" value="deportes">Deportes<br>
+    <input type="checkbox" name="hobby" value="meditar">Meditar&nbsp;
+    <input type="checkbox" name="hobby" value="cine">Cine<br>
+    <input type="checkbox" name="hobby" value="leer">Leer&nbsp;
+    <input type="checkbox" name="hobby" value="videojuegos">Video Juegos<br>
+    </td>
+</tr>
+<tr>
+    <td width="50%">Pais: (*)</td>
+    <td width="50%">
+    <select name="pais" id="pais">
+        <option value="">--</option>
+        <option value="mexico">Mexico</option>
+        <option value="argentina">Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="chile">Chile</option>
+        <option value="colombia">Colombia</option>
+        <option value="ecuador">Ecuador</option>
+    </select>
+    </td>
+</tr>
+<tr>
+    <td width="50%">Sexo:</td>
+    <td width="50%">
+    <input type="radio" name="sexo" value="m">M&nbsp;
+    <input type="radio" name="sexo" value="f">F&nbsp;
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="center">
+        <button type="button" name="boton">Crear usuario</button>
+    </td>
+    <td width="50%" align="center">
+        <button type="reset" name="botonR">Borrar</button>
+    </td>
+</tr>
+</table>
+Los campos con asteriscos(*) son obligatorios.
+</div>
+</form>
+</body>
+</html>
